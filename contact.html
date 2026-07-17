@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>トップページ：三ツ沢クラスタ</title>
+    <link rel="stylesheet" href="css./mystyle.css">
+    <meta name="description" content="神奈川県横浜市を拠点に活動する劇団">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <header>
+        <div class="header-in">
+            <img src="pic/logo.png" width="87" height="56" alt="三ツ沢クラスタ">
+            <nav>
+                <ul>
+                    <li><a href="index.html">top</a></li>
+                    <li><a href="point.html">member</a></li>
+                    <li><a href="company.html">information</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article class="page">
+        <ol>
+            <li><a href="index.html">top</a>&nbsp;&nbsp;&gt;</li>
+            <li>contact</li>
+        </ol>
+        <h1 class="sub-h1">お問い合わせ</h1>
+        <p>三ツ沢クラスタにご関心をお持ちいただきましてありがとうございます。
+            お問い合わせ内容の確認後、ご連絡させていただきます。
+        </p>
+        <p>
+            <strong>発表済みの公演・イベントに関するお問い合わせは、各公演、イベントごとに現地の問い合わせ先が設定されています。<br>公演・イベント情報をご確認の上、各問い合わせ先にお問合せください。こちらではお答えしかねます。</strong>
+
+        </p>
+        <section>
+            <h2>お電話によるお問い合わせ</h2>
+            <ul>
+                <li>電話番号：<strong>0120-XXX-XXX</strong></li>
+                <li>受付時間：10時から17時まで（平日のみ）</li>
+            </ul>
+        </section>
+        <section>
+            <h2>フォームによるお問い合わせ</h2>
+            <p>以下のフォームにご記入の上、送信してください。</p>
+            <form>
+                <p>
+                    <label for="username">会社名・団体名（必須）：
+                        <input type="text" name="username" id="username" placeholder="例）三ツ沢クラスタ" required class="form">
+                    </label>
+                </p>
+                <p>
+                    <label for="userfurigana">名前（任意）：
+                        <input type="text" name="userfurigana" id="userfurigana" placeholder="例）三沢太郎" class="form">
+                    </label>
+                </p>
+                <p>
+                    <label for="usertel">電話番号（必須）：
+                        <input type="tel" name="usertel" id="usertel" placeholder="半角で入力してください。" required class="form">
+                    </label>
+                </p>
+                <p>
+                    <label for="usermail">メールアドレス（必須）：
+                        <input type="email" name="usermail" id="usermail" placeholder="半角で入力してください。" required
+                            class="form">
+                    </label>
+                </p>
+                <p>
+                    お問い合わせ項目：<br>
+                    <input type="checkbox" name="userchiiki" id="saiwai" value="出演依頼">
+                    <label for="saiwai">出演依頼</label>
+                    <input type="checkbox" name="userchiiki" id="nakahara" value="製作依頼">
+                    <label for="nakahara">制作依頼</label>
+                    <input type="checkbox" name="userchiiki" id="shigai" value="その他">
+                    <label for="shigai">その他</label>
+                </p>
+                <p>
+                    <label for="usercomment">お問い合わせ内容：
+                        <textarea name="usercomment" id="usercomment" placeholder="お問い合わせ内容をご記入ください"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">送信</button>
+                </p>
+            </form>
+        </section>
+    </article>
+    <footer>
+        <p>横浜市を拠点に活動を行う劇団</p>
+        <small>&copy; 2020 Mituzawa Kurasuta</small>
+    </footer>
+</body>
+
+</html>
