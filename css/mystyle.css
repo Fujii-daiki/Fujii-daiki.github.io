@@ -33,6 +33,7 @@ article{
 	width:960px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top: 0px;
 }
 .catch{
 	position:absolute;
@@ -148,14 +149,13 @@ aside h1{
 	font-size:120%;
 	border-bottom:2px dotted #666666;
 	padding-left:5px;
+	margin-left: 2000px;
 	margin:0;
 }
 aside li{
 	border-bottom:1px dotted #666666;
 }
-aside ul{
-	margin:0;
-}
+
 aside a{
 	display:block;
 	color:#333333;
@@ -167,7 +167,7 @@ aside a{
 aside a:hover{
 	background-color:#dcdcdc;
 }
-.bukkenmei{
+.sakuhinmei{
 	display:block;
 	font-size:80%;
 	color:#666666;
@@ -180,8 +180,8 @@ h3{
 .select{
 	background-color:#ffcc00;
 }
-.bukken-kiji{
-	float:left;
+.sakuhin-kiji{
+	float:auto;
 	width:75%;
 }
 aside{
@@ -201,6 +201,7 @@ button{
 	height:50px;
 	padding:10px;
 }
+
 
 /* 959px以下の場合 */
 @media(max-width:959px){
@@ -222,7 +223,7 @@ article img{
 .header-in{
 	width:auto;
 }
-.bukken-kiji{
+.sakuhin-kiji{
 	float:none;
 	width:100%;
 }
