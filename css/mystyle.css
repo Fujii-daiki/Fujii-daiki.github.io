@@ -1,6 +1,8 @@
 @charset "utf-8";
 body{
-	background-color:#ffffff;
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHCiwgBqTEQxwMy-S7oNo9feTm_m6axHSQIuJp4c5ryg&s=10);
+	 background-size: cover;
+    background-position: center;
 	color:#333333;
 	font-family:"メイリオ","Hiragino Sans",sans-serif;
 	margin:0;
@@ -11,29 +13,30 @@ p{
 	line-height:1.8;
 }
 h1{
+	color: darkslategrey;
 	font-size:180%;
 }
 h2{
 	font-size:120%;
-	border-bottom:1px dashed #003366;
-	border-left:10px solid #003366;
+	border-bottom:1px dashed #ffffff;
+	border-left:10px solid #ffffff;
 	padding-left:7px;
 }
 footer{
 	text-align:center;
-	background-color:#003366;
+	background-color:darkblue;
 	color:#ffffff;
 	padding-top:10px;
 	padding-bottom:10px;
 	clear:both;
 }
 article{
+	color: #ffffff;
 	position:relative;
 	clear:both;
 	width:960px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 0px;
 }
 .catch{
 	position:absolute;
@@ -43,7 +46,7 @@ article{
 	text-shadow:0px 5px 10px #000000;
 }
 header{
-	background-color:#003366;
+	background-color:darkblue;
 	color:#ffffff;
 }
 ul{
@@ -86,7 +89,7 @@ header img{
 	background:linear-gradient(to left,#ffffff,#dcdcdc);
 	padding-top:5px;
 	padding-left:10px;
-	border-left:15px solid #003366;
+	border-left:15px solid gray;
 	margin:0;
 }
 .point-list{
@@ -149,13 +152,14 @@ aside h1{
 	font-size:120%;
 	border-bottom:2px dotted #666666;
 	padding-left:5px;
-	margin-left: 2000px;
 	margin:0;
 }
 aside li{
 	border-bottom:1px dotted #666666;
 }
-
+aside ul{
+	margin:0;
+}
 aside a{
 	display:block;
 	color:#333333;
@@ -181,7 +185,7 @@ h3{
 	background-color:#ffcc00;
 }
 .sakuhin-kiji{
-	float:auto;
+	float:left;
 	width:75%;
 }
 aside{
@@ -201,7 +205,9 @@ button{
 	height:50px;
 	padding:10px;
 }
-
+a{
+	color: #ffffff;
+}
 
 /* 959px以下の場合 */
 @media(max-width:959px){
@@ -223,7 +229,7 @@ article img{
 .header-in{
 	width:auto;
 }
-.sakuhin-kiji{
+.bukken-kiji{
 	float:none;
 	width:100%;
 }
